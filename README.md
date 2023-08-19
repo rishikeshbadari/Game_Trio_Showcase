@@ -1,1 +1,2 @@
-# Game_Trio_Showcase
+# Team 5
+CS 2340

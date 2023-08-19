@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Practicecode"
+        tools:targetApi="31">
+        <activity
+            android:name=".GameOverTic2"
+            android:exported="false"
+            android:label="@string/title_activity_game_over_tic2"
+            android:theme="@style/Theme.Practicecode" />
+        <activity
+            android:name=".GameOverTic1"
+            android:exported="false"
+            android:label="@string/title_activity_game_over_tic1"
+            android:theme="@style/Theme.Practicecode" />
+        <activity
+            android:name=".WinningTowersOfHanoi"
+            android:exported="false"
+            android:label="@string/title_activity_winning_towers_of_hanoi"
+            android:theme="@style/Theme.Practicecode" />
+        <activity
+            android:name=".GameOverForTowers"
+            android:exported="false"
+            android:label="@string/title_activity_game_over_for_towers"
+            android:theme="@style/Theme.Practicecode" />
+        <activity
+            android:name=".Scoreboard"
+            android:exported="false"
+            android:label="@string/title_activity_scoreboard"
+            android:theme="@style/Theme.Practicecode" />
+        <activity
+            android:name=".BlackJack"
+            android:exported="false"
+            android:label="@string/title_activity_black_jack"
+            android:theme="@style/Theme.Practicecode" />
+        <activity
+            android:name=".GameOver"
+            android:exported="false"
+            android:label="@string/title_activity_game_over"
+            android:theme="@style/Theme.Practicecode" />
+        <activity
+            android:name=".TowersOfHanoi3"
+            android:exported="false"
+            android:label="@string/title_activity_towers_of_hanoi3"
+            android:theme="@style/Theme.Practicecode" />
+        <activity
+            android:name=".TowersOfHanoi2"
+            android:exported="false"
+            android:label="@string/title_activity_towers_of_hanoi2"
+            android:theme="@style/Theme.Practicecode" />
+        <activity
+            android:name=".TowersOfHanoi1"
+            android:exported="false"
+            android:label="@string/title_activity_towers_of_hanoi1"
+            android:theme="@style/Theme.Practicecode" />
+        <activity
+            android:name=".TicTacToeScreen3"
+            android:exported="false"
+            android:label="@string/title_activity_tic_tac_toe_screen3"
+            android:theme="@style/Theme.Practicecode" />
+        <activity
+            android:name=".TicTacToeScreen2"
+            android:exported="false"
+            android:label="@string/title_activity_tic_tac_toe_screen2"
+            android:theme="@style/Theme.Practicecode" />
+        <activity
+            android:name=".TicTacToeScreen1"
+            android:exported="false"
+            android:label="@string/title_activity_tic_tac_toe_screen1"
+            android:theme="@style/Theme.Practicecode" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:label="@string/title_activity_main_screen"
+            android:theme="@style/Theme.Practicecode" />
+        <activity
+            android:name=".Activity2"
+            android:exported="false"
+            android:label="@string/title_activity_2"
+            android:theme="@style/Theme.Practicecode" />
+        <activity
+            android:name=".MainScreen"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Practicecode">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
